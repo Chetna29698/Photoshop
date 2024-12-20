@@ -1,0 +1,142 @@
+#about{
+    height: auto;
+    width: 100%;
+    /* background-color: thistle; */
+}
+#about h1{
+    font-size: 40px;
+    margin-left: 570px;
+}
+#about p{
+    margin-left: 370px;
+    margin-right: 400px;
+    text-align: center;
+}
+#about #box{
+    height: 350px;
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+}
+#about #box1{
+    height: 350px;
+    width: 300px;
+    background-image: url(img/waterfall.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about #box #box1 .fa-eye{
+    color: white;
+    font-size: 35px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+#about #box #box1 h2{
+    color: white;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#about #box #box1 .para{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+#about #box2{
+    height: 350px;
+    width: 300px;
+    background-image: url(img/mountain.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about #box #box2 .fa-folder{
+    color: white;
+    font-size: 35px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+#about #box #box2 h2{
+    color: white;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#about #box #box2 .para{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+#about #box3{
+    height: 350px;
+    width: 300px;
+    background-image: url(img/beach.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about #box #box3 .fa-camera{
+    color: white;
+    font-size: 35px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+#about #box #box3 h2{
+    color: white;
+    font-size: 30px;
+    margin-left: 60px;
+    margin-top: 10px;
+}
+#about #box #box3 .para{
+    color: white;
+    font-size: 17px;
+    position: relative;
+    top: 30px;
+    left: 5px;
+}
+
+/* -------------------------------section---------------------------- */
+#about #section{
+    height: 450px;
+    width: 100%;
+    background-color: black;
+    margin-top: 40px;
+}
+#about #section #section1{
+    height: 450px;
+    width: 50%;
+    /* background-color: green; */
+    float: left;
+}
+#section #section1 h3{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 250px;
+    top: 20px;
+}
+#section #section1 h6{
+    color: white;
+    font-size: 15px;
+    padding-left: 160px;
+    padding-right: 200px;
+    padding-top: 50px;
+    text-align: right;
+}
+#section #section1 button{
+    color: white;
+    border-color: white;
+    background-color: black;
+    padding: 10px 15px 10px 15px;
+    margin-left: 460px;
+    margin-top: 30px;
+}
+#about #section #section2{
+    height: 450px;
+    width: 50%;
+    float: right;
+}

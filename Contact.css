@@ -1,0 +1,71 @@
+#contact{
+    height: 630px;
+    width: 100%;
+    background-color: antiquewhite;
+    background-image: url(img/contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#contact #inner-div{
+    height: 600px;
+    width: 450px;
+    background-color: rgba(255, 255, 255, 0.57);
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+#contact #inner-div h1{
+    margin-left: 40px;
+    color: rgb(0, 183, 255);
+}
+#contact #inner-div label{
+    margin-left: 40px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+#contact #inner-div #name{
+    margin-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+#contact #inner-div #email{
+    margin-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+#contact #inner-div #phone{
+    margin-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+#contact #inner-div #msg{
+    margin-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 80px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+#contact #inner-div #btn_submit{
+    font-size: 17px;
+    padding: 7px 60px 7px 60px;
+    margin: 20px 0px 0px 130px;
+    background-color: rgb(0, 183, 255);
+    border-color: rgb(0, 183, 255);
+    border-radius: 10px;
+    color: white;
+}
+#contact #inner-div #btn_submit:hover{
+    background-color: transparent;
+    border-color: black;
+}

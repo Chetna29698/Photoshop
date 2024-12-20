@@ -1,0 +1,72 @@
+#details{
+    height: 600px;
+    width: 100%;
+    background-image: url(img/details.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* --------------first------------ */
+#details #first{
+    height: 350px;
+    width: 300px;
+    /* background-color: yellowgreen; */
+    border: 5px groove black;
+}
+#details #first h2{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+#details #first .fa-camera{
+    margin-right: 18px;
+}
+#details #first p{
+    margin-left: 80px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+
+
+/* ---------------second--------------- */
+#details #second{
+    height: 350px;
+    width: 300px;
+    /* background-color: rgb(205, 202, 50); */
+    border: 5px groove black;
+}
+#details #second h2{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+#details #second .fa-lightbulb{
+    margin-right: 18px;
+}
+#details #second p{
+    margin-left: 80px;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+/* ---------------third------------- */
+#details #third{
+    height: 350px;
+    width: 300px;
+    /* background-color: rgb(205, 50, 169); */
+    border: 5px groove black;
+}
+#details #third h2{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+}
+#details #third .fa-folder{
+    margin-right: 18px;
+}
+#details #third p{
+    margin-left: 80px;
+    margin-right: 30px;
+    margin-top: 15px;
+}

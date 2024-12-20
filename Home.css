@@ -1,0 +1,70 @@
+#home{
+    height: 650px;
+    width: 100%;
+    background-image: url(img/home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ #inner{
+    height: 320px;
+    width: 580px;
+    background-color: rgba(255, 255, 255, 0.678);
+    position: relative;
+    top: 130px;
+    left: 450px;
+}
+#inner h1{
+    position: absolute;
+    left: 50px;
+}
+#inner p{
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    right: 30px;
+    text-align: justify;
+}
+#inner small{
+    position: absolute;
+    top: 190px;
+    left: 220px;
+    font-size: 25px;
+}
+#inner small::after{
+    content: "";
+    height: 4px;
+    width: 60px;
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 40px;
+    left: 25px;
+}
+#home .fa-facebook{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 1200px;
+    bottom: 300px;
+}
+#home .fa-instagram{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 1240px;
+    bottom: 300px;
+}
+#home .fa-twitter{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 1280px;
+    bottom: 300px;
+}
+#home .fa-whatsapp{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    left: 1320px;
+    bottom: 300px;
+}
